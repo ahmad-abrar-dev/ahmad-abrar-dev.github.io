@@ -747,7 +747,7 @@ a:hover{
 
 .slider .testimonial-text {
   width: 90%;
-  /* margin: auto; */
+  margin: auto;
   margin-bottom: 5px;
   padding-bottom: 15px;
   border-bottom: 2px solid #D06A5F;
