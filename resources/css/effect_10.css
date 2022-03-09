@@ -1,0 +1,244 @@
+/* general */
+/* Icon */
+.effect-10 a{
+	text-align: center;
+}
+.effect-10 .fb:before {
+	content: "\f09a";
+}
+.effect-10 .fb:after {
+	content: 'Facebook';
+}
+.effect-10 .fb{
+	border-color: #6185d3;
+}
+.effect-10 .fb:before, 
+.effect-10 .fb:after {
+	/* background-color: #3b5998; */	
+	background: linear-gradient(25deg,  #294175,#6185d3);
+}
+
+/* dribbble */
+.effect-10 .dribbble:before{
+	content: "\f17d";
+}
+.effect-10 .dribbble:after {
+	content: 'Dribbble';
+}
+.effect-10 .dribbble {
+	border-color: #C32D62;
+}
+.effect-10 .dribbble:before, 
+.effect-10 .dribbble:after {
+	background-color: #F26798;
+}
+
+/* SU */
+.effect-10 .su:before{
+	content: "\f1a4";
+}
+.effect-10 .su:after {
+	content: 'Stumble U';
+}
+.effect-10 .su {
+	border-color: #2D7D1C;
+}
+.effect-10 .su:before, 
+.effect-10 .su:after {
+	background-color: #5FBB4C;
+}
+
+/* Gplus */
+.effect-10 .gplus:before {
+	content: "\f0d5";
+}
+.effect-10 .gplus:after {
+	content: 'G Plus';
+}
+.effect-10 .gplus {
+	border-color: #A72E1E;
+}
+.effect-10 .gplus:before,
+.effect-10 .gplus:after {
+	background-color: #d34836;
+}
+
+/* Instagram */
+.effect-10 .instagram:before {
+	content: "\f16d";
+}
+.effect-10 .instagram:after {
+	content: 'Instagram';
+}
+.effect-10 .instagram {
+	border-color: #F92672;
+}
+.effect-10 .instagram:before,
+.effect-10 .instagram:after {
+	/* background-color: #DCAD65; */
+	background: linear-gradient(25deg,purple,#ff009d);
+	/* background: radial-gradient(circle, red,purple, yellow); */
+	/* background-color: #DCAD65; */
+}
+
+/* Twitter */
+.effect-10 .twitter:before {
+	content: "\f099";
+}
+.effect-10 .twitter:after{
+	content: 'Twitter';
+}
+.effect-10 .twitter {
+	/* border-color: #256AB9; */
+	border-color: #6baffc;
+}
+.effect-10 .twitter:before,
+.effect-10 .twitter:after {
+	/* background-color: #4099ff; */
+	
+	background: linear-gradient(25deg,#0176fc,#6baffc);
+}
+
+/* RSS */
+.effect-10 .rss:before {
+	content: "\f09e";
+}
+.effect-10 .rss:after {
+	content: 'RSS';
+}
+.effect-10 .rss {
+	border-color: #BF713A;
+}
+.effect-10 .rss:before,
+.effect-10 .rss:after {
+	background-color: #FF9F5B;
+}
+
+/* Digg */
+.effect-10 .digg:before {
+	content: "\f1a6";
+}
+.effect-10 .digg:after {
+	content: 'digg';
+}
+.effect-10 .digg {
+	border-color: #4986C7;
+}
+.effect-10 .digg:before,
+.effect-10 .digg:after {
+	background-color: #79BAFF;
+}
+
+/* Youtube */
+.effect-10 .youtube:before {
+	content: "\f167";
+}
+.effect-10 .youtube:after {
+	content: 'Youtube';
+}
+.effect-10 .youtube {
+	/* border-color: #881600; */
+	border-color: #ff3333;
+}
+.effect-10 .youtube:before,
+.effect-10 .youtube:after {
+	/* background-color: #CF2200; */
+	background: linear-gradient(25deg,#c70000,#ff3333);
+}
+
+/* Vimeo */
+.effect-10 .vimeo:before {
+	content: "\f27d";
+}
+.effect-10 .vimeo:after {
+	content: 'Vimeo';
+}
+.effect-10 .vimeo {
+	border-color: #427CAD;
+}
+.effect-10 .vimeo:before,
+.effect-10 .vimeo:after {
+	background-color: #85C6FD;
+}
+
+/* Delicious */
+.effect-10 .delicious:before {
+	content: "\f1a5";
+}
+.effect-10 .delicious:after {
+	content: 'Delicious';
+}
+.effect-10 .delicious {
+	border-color: #2E70AB;
+}
+.effect-10 .delicious:before, 
+.effect-10 .delicious:after {
+	background-color: #3F92DC;
+}
+
+/* Linkedin */
+.effect-10 .linkedin:before {
+	content: "\f0e1";
+}
+.effect-10 .linkedin:after {
+	content: 'Linkedin';
+}
+.effect-10 .linkedin {
+	/* border-color: #2D637B; */
+	border-color: #64bbe4;
+}
+.effect-10 .linkedin:before, 
+.effect-10 .linkedin:after {
+	/* background-color: #4698BD; */
+	background: linear-gradient(25deg,#3283a8,#64bbe4);
+}
+
+/* github */
+.effect-10 .github:before {
+	font-family: "FontAwesome"; 
+	content: "\f09b";
+}
+.effect-10 .github:after {
+	content: 'Github';
+}
+.effect-10 .github {
+	/* border-color: #2D637B; */
+	border-color: #000;
+}
+.effect-10 .github:before, 
+.effect-10 .github:after {
+	/* background-color: #4698BD; */
+	background: linear-gradient(25deg,#333,#000);
+}
+
+/* EFFECT */
+.effect-10 a {
+	background-color: #EAEAEA;
+	border-bottom: 5px solid #949494;
+	height: 69px;
+    z-index: 1;
+	color: #FFFFFF;
+	overflow: visible !important;
+	
+}
+.effect-10 a:after 
+{
+	font-size: 10px;
+    line-height: 103px;
+    text-transform: uppercase;
+    font-family: arial;
+	z-index: -1;
+}
+
+.effect-10 a:hover:before{
+	top: -18px;
+}
+
+.effect-10 a:before,
+.effect-10 a:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
