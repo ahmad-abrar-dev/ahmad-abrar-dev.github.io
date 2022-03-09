@@ -313,6 +313,9 @@ button:hover {
   background: #D06A5F;
 
 }
+.navbar-toggle{
+  margin-right: 40px;
+}
 
 /*
 * ==========================================
@@ -711,6 +714,7 @@ a:hover{
 }
 
 .slider .swiper-button-next {
+  z-index: 1;
 	right: -0.5rem;
   background-image: url("../img/right.png");
   background-size: 1.125rem 1.75rem;
@@ -743,6 +747,7 @@ a:hover{
 
 .slider .testimonial-text {
   width: 90%;
+  /* margin: auto; */
   margin-bottom: 5px;
   padding-bottom: 15px;
   border-bottom: 2px solid #D06A5F;
