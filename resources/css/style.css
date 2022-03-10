@@ -449,6 +449,10 @@ a:hover{
 .biodata{
   font-size: 20px;
 }
+.biodata table td{
+  float: left;
+  top: 0;
+}
 .biodata table td:first-child{
   min-width: 40px;
   text-align: center;
@@ -1072,10 +1076,6 @@ footer p {
   }
   .biodata table{
     margin: auto;
-  }
-  .biodata table td{
-    float: left;
-    top: 0;
   }
   .img-container{
       width: 50%;
