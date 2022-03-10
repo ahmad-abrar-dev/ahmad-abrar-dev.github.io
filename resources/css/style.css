@@ -43,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-
 .noPadding{
     padding: 0px;
 }
@@ -54,8 +53,6 @@ p.colorfullText {
     letter-spacing: 2px;
 }
 
-
-
 * {
   margin: 0px; 
   padding: 0px; 
@@ -63,11 +60,9 @@ p.colorfullText {
 }
 
 body, html {
-  height: 100%;
-  /* font-family: 'Poppins'; */
+  overflow-x: hidden;
 }
 
-/*---------------------------------------------*/
 a {
   /* font-family: 'Poppins'; */
   font-size: 14px;
@@ -89,7 +84,6 @@ a:hover {
   line-height: 0;
 }
 
-/*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   margin: 0px;
 }
@@ -119,7 +113,7 @@ textarea {
 }
 
 textarea:focus, input:focus {
-border-color: transparent !important;
+  border-color: transparent !important;
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }
@@ -151,7 +145,8 @@ section{
 }
 .heading-wrapper{
   text-align: center;
-  width: 400px;
+  width: 70%;
+  max-width: 300px;
   margin: auto;
   padding-bottom: 10px;
   margin-bottom: 30px;
@@ -160,7 +155,6 @@ section{
 .heading-page{
   font-size: 40px;
 }
-
 
 
 /*
@@ -449,11 +443,9 @@ a:hover{
 .biodata{
   font-size: 20px;
 }
-.biodata table td{
+.biodata table td:first-child{
   float: left;
   top: 0;
-}
-.biodata table td:first-child{
   min-width: 40px;
   text-align: center;
 }
@@ -592,7 +584,8 @@ a:hover{
 }
 
 .web-chart{
-  width: 260px;
+  width: 95%;
+  max-width: 260px;
   display: inline-block;
   text-align: center;
   padding: 0 auto;

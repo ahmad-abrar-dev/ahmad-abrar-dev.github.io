@@ -10,9 +10,9 @@
 	font-style: normal;
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: border-box;
-}
+} */
 .effect-wrapper {
 	text-align: center;
 }
