@@ -21,7 +21,7 @@ $(document).ready(function(){
         ]
     };
     var data2 = {
-        labels: ["C#", "PHP", "JavaScript", "Java", "Python", "C"],
+        labels: ["C#", "PHP", "JavaScript", "Java", "Python", "Golang"],
         datasets: [{
             backgroundColor: "rgba(212, 108, 95, 0.8)",
             borderColor: "rgba(212, 108, 95, 0.88)",
@@ -29,7 +29,7 @@ $(document).ready(function(){
             pointBorderColor: "rgba(212, 108, 95, 0.88)",
             pointHoverBackgroundColor: "rgba(212, 108, 95, 0.88)",
             pointHoverBorderColor: "rgba(212, 108, 95, 0.98)",
-            data: [60, 97, 92, 70, 55, 55]
+            data: [60, 97, 86, 67, 55, 82]
             }
         ]
     };
