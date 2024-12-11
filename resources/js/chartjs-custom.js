@@ -29,7 +29,7 @@ $(document).ready(function(){
             pointBorderColor: "rgba(212, 108, 95, 0.88)",
             pointHoverBackgroundColor: "rgba(212, 108, 95, 0.88)",
             pointHoverBorderColor: "rgba(212, 108, 95, 0.98)",
-            data: [60, 97, 86, 67, 55, 82]
+            data: [55, 91, 86, 65, 55, 94]
             }
         ]
     };
